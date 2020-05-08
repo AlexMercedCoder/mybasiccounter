@@ -1,0 +1,70 @@
+/* |||||||||||||
+|| Setup Code
+||||||||||||| */
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Shadows+Into+Light&display=swap');
+
+:root {
+    --mainColor: orange;
+    --backColor: red;
+    --accent: green;
+
+    --titleFont: 'Shadows Into Light', cursive;
+    --textFont: 'Righteous', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 3px solid gold; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--titleFont);
+    text-align: center;
+    margin: 40px;
+}
+
+body {
+    font-family: var(--textFont);
+}
+
+/* ||||||||||||||||||
+|| Project Specific Styles
+|||||||||||||||||| */
+
+div {
+    background-color: palegoldenrod;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 3px 10px purple;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+button,
+input {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    font-size: large;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+}
+
+button:hover,
+input:hover {
+    background-color: peru;
+}
